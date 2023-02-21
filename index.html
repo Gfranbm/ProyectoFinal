@@ -72,11 +72,11 @@
          * 1. convierta la cantidad de hijos a numero
          */
 
-        cantidad_hijos_numero = parseInt(cantidad_hijos);
+        var cantidad_hijos_numero = parseInt(cantidad_hijos);
 
         // validar si tiene propiedades
         var propiedades = prompt("¿Tiene propiedades?, si/no");
-
+        var cantidad_propiedad;
         // validar cantidad de propiedades
         if ("SI" == propiedades.toUpperCase()) {
           cantidad_propiedad = prompt("¿Cuántos propiedades tiene? ingrese solo números");
